@@ -100,7 +100,7 @@ a:active {
 .menu__link {
     font-weight: 600;
     font-size: 14px;
-    color: #0008;
+    color: black;
 }
 
 .menu__item {
@@ -137,7 +137,7 @@ a:active {
     position: relative;
     width: 30px;
     height: 30px;
-    background-image: url(../menu.png);
+    background-image: url(https://github.com/julia-online/task_html_css_popup/blob/main/menu.png);
     background-color: transparent;
     background-position: center;
     background-size: cover;
