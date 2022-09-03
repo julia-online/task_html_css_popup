@@ -5,8 +5,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* DECLARE .HEADER */
-
 .header {
     display: flex;
     justify-content: flex-end;
@@ -19,13 +17,9 @@
     background-color:blue;
 }
 
-/* HEADER - Hide dots in the <ul> element*/
-
 .menu__list {
     list-style: none;
 }
-
-/* HEADER - Style for <a> element */
 
 a {
     text-decoration-style: dashed;
@@ -44,8 +38,6 @@ a:active {
     text-decoration-color: white;
 }
 
-/* DECLARE .MAIN */
-
 .main {
     display: flex;
     width: calc(100%-80px);
@@ -59,8 +51,6 @@ a:active {
 
 }
 
-/* DECLARE .FOOTER */
-
 .footer {
     display: flex;
     width: calc(100%-80px);
@@ -72,8 +62,6 @@ a:active {
     background-color:blue;
 }
 
-/* DECLARE WRAPPER */
-
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -83,8 +71,6 @@ a:active {
     height: 100vh;
     margin: 0 auto;
 }
-
-/* MENU + LIST-LINK-ITEM - BEM naming convention */
 
 .menu__burger-icon:focus {
     outline: 3px dashed gold;
@@ -153,8 +139,6 @@ a:active {
     border-radius: 50%;
 }
 
-/* POPUP - Style */
-
 .popup {
     display: none;
     position: absolute;
@@ -171,13 +155,9 @@ a:active {
     border-radius: 3%;
 }
 
-/* SCROLLBAR - Style */
-
 .popup::-webkit-scrollbar {
     width: 10px;
 }
-
-/* SCROLLBAR - Track */
 
 .popup::-webkit-scrollbar-track {
     background: grey;
@@ -188,8 +168,6 @@ a:active {
     -khtml-border-radius: 20px;
 }
 
-/* SCROLLBAR - Thumb */
-
 .popup::-webkit-scrollbar-thumb {
     background: gold;
     border: 3px solid #D0D0D0;
@@ -199,8 +177,6 @@ a:active {
     -khtml-border-radius: 20px;
 }
 
-/* SCROLLBAR - Handle on hover */
-
 .popup::-webkit-scrollbar-thumb:hover {
     background: black;
     border-radius: 20px;
@@ -208,8 +184,6 @@ a:active {
     -moz-border-radius: 20px;
     -khtml-border-radius: 20px;
 }
-
-/* POPUP-SUBMENU - Style */
 
 .popup__submenu {
     display: flex;
@@ -220,8 +194,6 @@ a:active {
     padding: 0px 5px 0px 5px;
     justify-content: flex-start;
 }
-
-/* POPUP-SUBMENU - Item */
 
 .submenu__item {
     display: flex;
@@ -337,8 +309,6 @@ a:active {
     overflow: auto;
     padding-bottom: 25px;
 }
-
-/* SVG - paws-img */
 
 .img-paws {
     display: flex;
